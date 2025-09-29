@@ -54,6 +54,8 @@ int main()
     GetMonitorInfo(hMon, &target);
 
     std::wcout << target.szDevice << "\n";
+    
+    return 0;
 }
 
 
